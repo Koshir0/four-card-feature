@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: whitesmoke;
+}
+.mainhead{
+    font-weight: 200;
+    text-align:center
+}
+
+.secondhead{
+    font-weight: 600;
+    text-align:center;
+    color: hsl(234, 12%, 34%)
+}
+
+h3{
+    font-weight: 400;
+    text-align: left;
+    color: hsl(234, 12%, 34%)
+}
+
+p{
+    font-weight: 300;
+}
+.mainpara{
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    position: relative;
+}
+
+.card{
+    width: 25%;
+    height: 70%;
+    /* border: lightgreen solid 3px; */
+    position: relative;
+    overflow: hidden;
+    margin:2em auto;
+
+}
+.cards div{
+    margin:1rem;
+    /* padding: 1.5rem; */
+}
+
+.middlecolumn{
+    height: 100%;
+    position: relative;
+
+}
+.middlecolumn div{
+    margin:2em auto;
+    /* border: 2px solid lightgreen; */
+    width: 70%;
+
+    
+}
+
+.lighblue{
+    border-top: hsl(180, 62%, 55%)  solid 2px;
+    background-color: white;
+    padding:1rem;
+
+}
+
+.red{
+    border-top: hsl(0, 78%, 62%) solid 2px;
+    background-color: white;
+    padding:1rem;
+
+}
+
+.orange{
+    border-top: hsl(34, 97%, 64%) solid 2px;
+    background-color: white;
+    padding:1rem;
+
+}
+
+.blue{
+    border-top: hsl(212, 86%, 64%) solid 2px;
+    background-color: white;
+    padding:1rem;
+
+}
+
+.icon{
+    text-align: right;
+    position: relative;
+    right: -70%;
+    /* width: 100px; */
+}
+
+@media only screen and (max-width: 375px) {
+    /* For mobile phones: */
+   body {
+     background-color: yellow;
+    }
+
+    .cards{
+        display: block;
+    }
+
+    .card{
+        width: 70%;
+        
+    }
+
+    .cards div{
+        margin: 1rem auto;
+    }
+  }
